@@ -7,6 +7,8 @@ dspace was written to solve a simple problem:
 
 ## Usage
 
+The CLI needs to be elevated to run as Administrator/Super User, otherwise it will only report on accessible directories.
+
 ```bash
 usage: dspace --path=PATH [<flags>]
 
